@@ -61,7 +61,7 @@ display: block;
   border: none;
   border-top: 1px solid rgba(187, 196, 214, 0.5);
 
-  background-image: url("/public/img/icon-search.svg");
+  background-image: url("img/icon-search.svg");
   background-repeat: no-repeat;
   background-position: top 8px left 20px;
 }
