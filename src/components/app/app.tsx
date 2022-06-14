@@ -29,6 +29,7 @@ function App(): JSX.Element {
           </nav>
           <input
             className="page-header__input-search"
+            style={{backgroundImage: 'url(/img/icon-search.svg)'}}
             type="text"
             placeholder="Найти..."
           />

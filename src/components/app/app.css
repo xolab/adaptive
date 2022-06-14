@@ -61,7 +61,6 @@ display: block;
   border: none;
   border-top: 1px solid rgba(187, 196, 214, 0.5);
 
-  background-image: url("img/icon-search.svg");
   background-repeat: no-repeat;
   background-position: top 8px left 20px;
 }
@@ -90,6 +89,10 @@ display: block;
 
   .nav-tablet {
     display: block;
+  }
+
+  .container {
+    max-width: 1170px;
   }
 
   .page-header {
@@ -123,17 +126,12 @@ display: block;
     border: 1px solid #EBEBF1;
     border-radius: 5px;
 
-    background-image: url("/public/img/icon-search.svg");
     background-repeat: no-repeat;
     background-position: top 7px left 8px;
   }
 }
 
 @media(min-width: 1440px) {
-  .container {
-    max-width: 1170px;
-  }
-
   .page-main__title {
     font-size: 36px;
     line-height: 58px;
